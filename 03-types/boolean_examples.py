@@ -1,4 +1,4 @@
-# Examplesof working with booleans
+# Examples of working with booleans
 
 all_ok = True
 print(all_ok)

@@ -6,6 +6,5 @@ while count < 10:
     print(count, '', end='')
     count += 1
 
-print() # not part of the while loop
+print()  # not part of the while loop
 print('Done')
-

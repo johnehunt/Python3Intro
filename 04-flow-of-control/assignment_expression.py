@@ -1,4 +1,4 @@
-# Illustrates use of assignment expression constrcut
+# Illustrates use of assignment expression construct
 # introduced in Python 3.8
 
 while (command := input("> ")) != "quit":

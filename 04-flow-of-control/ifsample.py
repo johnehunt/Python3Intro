@@ -32,7 +32,7 @@ if savings == 0:
 elif savings < 500:
     print('Well done')
 elif savings < 1000:
-    print('Thats a tidy sum')
+    print('That is a tidy sum')
 elif savings < 10000:
     print('Welcome Sir!')
 else:

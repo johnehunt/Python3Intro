@@ -2,8 +2,8 @@
 # Two union operators, merge | and update |=,
 # have been introduced for dict.
 
-offices = {'John': 1, 'Denise' : 21}
-labs = {'Cyber' : 5, 'Games': 33}
+offices = {'John': 1, 'Denise': 21}
+labs = {'Cyber': 5, 'Games': 33}
 
 print('offices', offices)
 print('labs', labs)

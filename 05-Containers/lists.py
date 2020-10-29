@@ -2,7 +2,7 @@ list1 = ['John', 'Paul', 'George', 'Ringo']
 list2 = [4]
 list3 = []
 list4 = [1, "two", 3, 'four']
-list5 = [ [2, 3], [6, 8]]
+list5 = [[2, 3], [6, 8]]
 
 print(type(list5))
 print(list1, ': ', len(list1))
@@ -16,7 +16,6 @@ print('list1[-1]:', list1[-1])
 print('list1[1:3]:', list1[1:3])
 print('list[:3]:', list1[:3])
 print('list[1:]:', list1[1:])
-
 
 list1.append('Pete')
 print(list1)

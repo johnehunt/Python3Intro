@@ -10,10 +10,10 @@ print('Hi' * 10)
 print('Edward Alan Rawlings'.find('Alan'))
 print('Edward John Rawlings'.find('Alan'))
 
-print('James' == 'James') # prints True
-print('James' == 'John') # prints False
-print('James' != 'John') # prints True
-print('James' == 'james') # prints False
+print('James' == 'James')  # prints True
+print('James' == 'John')  # prints False
+print('James' != 'John')  # prints True
+print('James' == 'james')  # prints False
 
 # Various different string operations
 some_string = 'Hello World'

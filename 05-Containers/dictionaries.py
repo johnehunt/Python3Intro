@@ -70,17 +70,12 @@ d['four'] = 4
 print(d.keys())
 print(sorted(d.keys()))
 
-dict = cities
 key = 'England'
 
-if key in dict:
-    print('Key is present, value = ', dict[key])
+if key in cities:
+    print('Key is present, value = ', cities[key])
 else:
     print('Key not present')
 
 print('key.__hash__():', key.__hash__())
 print("key.__eq__('England'):", key.__eq__('England'))
-
-class NotHashableThing(object):
-    __hash__ = None
-

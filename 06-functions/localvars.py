@@ -1,5 +1,6 @@
 a_global_count = 10
 
+
 def some_func():
     a_local_variable = 100
     print('a_local_variable:', a_local_variable)
@@ -7,6 +8,7 @@ def some_func():
 
 
 some_func()
+
 
 def my_function():
     a_variable = 100
@@ -19,6 +21,8 @@ print('outside function:', a_variable)
 
 max = 100
 print('initial value of max:', max)
+
+
 def print_max():
     global max
     max = max + 1

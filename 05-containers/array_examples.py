@@ -3,12 +3,14 @@
 # Note in many examples the term list and array is used
 # interchangeably in Python, but Python arrays are not lists
 # They are less flexible but are more space efficient and can be faster
+# Python arrays specify the type of value held in the array
+# i - int, l - long, d - double, f - float, u - unicode char
+# This can be important if you need to share an array with C code
 
 # Import the Python array module
 import array as arr
 
-# Create an array of numeric values
-# created an array of float type.
+# Create an array of double/float type.
 # The letter d is a type code which determines
 # the type of the array during creation
 print('Creating an array of doubles')

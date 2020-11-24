@@ -1,34 +1,5 @@
-# Basic generator function
-def gen_numbers():
-    yield 1
-    yield 2
-    yield 3
-
-
-for i in gen_numbers():
-    print(i)
-
-print('-' * 20)
-
-
-# Illustrates when yield expressions are executed
-def gen_numbers2():
-    print('Start')
-    yield 1
-    print('Continue')
-    yield 2
-    print('Final')
-    yield 3
-    print('End')
-
-
-for i in gen_numbers2():
-    print('-', end='')
-    print(i, end='')
-    print('*')
-
-print('-' * 20)
-
+# Example of generating a set of even numbers
+# The generator itself has a loop
 
 def evens_up_to(limit):
     value = 0

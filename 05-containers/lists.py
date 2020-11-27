@@ -1,6 +1,6 @@
 list1 = ['John', 'Paul', 'George', 'Ringo']
 list2 = [4]
-list3 = []
+list3 = []  # empty list
 list4 = [1, "two", 3, 'four']
 list5 = [[2, 3], [6, 8]]
 

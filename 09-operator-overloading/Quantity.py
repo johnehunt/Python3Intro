@@ -2,6 +2,8 @@ class Quantity:
     def __init__(self, value=0):
         self.value = value
 
+    # Define a set of methods to provide operator functionality
+
     def __add__(self, other):
         new_value = self.value + other.value
         return Quantity(new_value)
@@ -59,6 +61,7 @@ class Quantity:
 
 
 def main():
+    print('Starting')
     q1 = Quantity(5)
     q2 = Quantity(10)
     print('q1 =', q1, ', q2 =', q2)
@@ -76,6 +79,8 @@ def main():
 
     print('q1 * 2', q1 * 2)
     print('q2 / 2', q2 / 2)
+
+    print('Done')
 
 
 if __name__ == '__main__':

@@ -1,6 +1,7 @@
 # Examples of simple functions in Python
 
 def print_msg():
+    """ A function that prints hello world """
     print('Hello World!')
 
 
@@ -9,6 +10,7 @@ print(type(print_msg))
 
 
 def print_my_msg(msg):
+    """ A simple function to print a message """
     print(msg)
 
 

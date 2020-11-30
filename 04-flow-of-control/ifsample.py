@@ -61,9 +61,9 @@ else:
 print(status)
 
 # Short hand form if expression examples
-status = ('teenager' if age > 12 and age < 20 else 'not teenager')
+status = 'teenager' if age > 12 and age < 20 else 'not teenager'
 print(status)
 
 num = int(input('Enter a simple number: '))
-result = (-1 if num < 0 else 1)
+result = -1 if num < 0 else 1
 print('Result is ', result)

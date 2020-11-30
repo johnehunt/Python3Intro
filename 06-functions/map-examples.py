@@ -1,3 +1,4 @@
+# Set up some date to process
 data = [1, 3, 5, 2, 7, 4, 10]
 print('data:', data)
 

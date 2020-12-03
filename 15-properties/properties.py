@@ -1,7 +1,7 @@
 # Example of defining a class using properties
 
 class Person:
-    """ CLass where age and name are properties """
+    """ Class where age and name are properties """
     def __init__(self, name, age):
         self._name = name
         self._age = age

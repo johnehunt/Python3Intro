@@ -1,3 +1,4 @@
+# Import the pyplot api
 import matplotlib.pyplot as pyplot
 
 # Plot a sequence of values

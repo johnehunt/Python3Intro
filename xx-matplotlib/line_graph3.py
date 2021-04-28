@@ -12,7 +12,7 @@ pyplot.xlabel('x values')
 # Set the title
 pyplot.title('Multiple Line graphs')
 
-# Configure line on plot
+# Draw each line graph
 pyplot.plot(x, y1,
             label="dataset1",
             color='blue',
@@ -27,7 +27,7 @@ pyplot.plot(x, y3,
             label="dataset3",
             color='green')
 
-# General the legend
+# Generate the legend
 pyplot.legend()
 
 # Display the graph

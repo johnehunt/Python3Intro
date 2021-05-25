@@ -60,28 +60,23 @@ class Quantity:
         return 'Quantity[' + str(self.value) + ']'
 
 
-def main():
-    print('Starting')
-    q1 = Quantity(5)
-    q2 = Quantity(10)
-    print('q1 =', q1, ', q2 =', q2)
+print('Starting')
+q1 = Quantity(5)
+q2 = Quantity(10)
+print('q1 =', q1, ', q2 =', q2)
 
-    q3 = q1 + q2
-    print('q3 =', q3)
-    print('q2 - q1 =', q2 - q1)
+q3 = q1 + q2
+print('q3 =', q3)
+print('q2 - q1 =', q2 - q1)
 
-    print('q1 * q2 =', q1 * q2)
-    print('q1 / q2 =', q1 / q2)
+print('q1 * q2 =', q1 * q2)
+print('q1 / q2 =', q1 / q2)
 
-    print('q1 < q2: ', q1 < q2)
-    print('q3 > q2: ', q3 > q2)
-    print('q3 == q1: ', q3 == q1)
+print('q1 < q2: ', q1 < q2)
+print('q3 > q2: ', q3 > q2)
+print('q3 == q1: ', q3 == q1)
 
-    print('q1 * 2', q1 * 2)
-    print('q2 / 2', q2 / 2)
+print('q1 * 2', q1 * 2)
+print('q2 / 2', q2 / 2)
 
-    print('Done')
-
-
-if __name__ == '__main__':
-    main()
+print('Done')
